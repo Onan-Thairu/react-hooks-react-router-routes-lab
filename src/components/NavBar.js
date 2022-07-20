@@ -12,7 +12,6 @@ function NavBar() {
         <li><NavLink to="/directors" exact>Directors</NavLink></li>
         <li><NavLink to="/actors" exact>Actors</NavLink></li>
       </ul>
-      <h1>Home Page</h1>
     </div>
   )
 }

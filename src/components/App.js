@@ -11,6 +11,10 @@ function App() {
     <div>
       {/*{code here}*/}
       <NavBar />
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route></Route>
     </div>
   )
 }
