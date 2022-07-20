@@ -18,6 +18,9 @@ function App() {
         <Route exact path="/movies" >
           <Movies />
         </Route>
+        <Route exact path="/directors">
+          <Directors />
+        </Route>
       </Switch>
     </div>
   )
