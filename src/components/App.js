@@ -21,6 +21,9 @@ function App() {
         <Route exact path="/directors">
           <Directors />
         </Route>
+        <Route exact path="/actors">
+          <Actors />
+        </Route>
       </Switch>
     </div>
   )
